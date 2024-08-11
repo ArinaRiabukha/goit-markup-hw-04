@@ -249,6 +249,7 @@
 .icons-a{
     display: flex;
     align-items: center;
+    justify-content: center;
     width: 40px;
     height: 40px;
     background-color: #4d5ae5;
@@ -260,7 +261,8 @@
     width: 40px;
     height: 40px;
 }
-.icons-a:hover{
+.icons-a:hover,
+.icons-a:focus{
     background-color: #404BBF;
 }
 .sec-four{
